@@ -45,6 +45,9 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'guard', '2.6.1'
   gem 'guard-rspec', '2.5.0'
+	gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
